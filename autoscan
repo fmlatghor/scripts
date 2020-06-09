@@ -1,0 +1,10 @@
+#!/bin/sh
+i=0
+while true; do
+	read -p "Ready to scan. Scan your item(s)? y/N " yn
+	case $yn in
+		[Yy]* ) scanimage --format=png > ${i}scan.png; i=$(($i+1));;
+		[Nn]* ) exit;;
+		* ) printf "Please answer yes or no. ";;
+	esac
+done
