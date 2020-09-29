@@ -1,0 +1,5 @@
+echo Cover art:
+read cover
+echo Audio:
+read audio
+ffmpeg -y -loop 1 -i "$cover" -i "$audio.flac" -c:a aac -b:a 348k -shortest "$audio.mp4"
