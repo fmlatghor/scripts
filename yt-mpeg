@@ -2,4 +2,4 @@ echo Cover art:
 read cover
 echo Audio:
 read audio
-ffmpeg -y -loop 1 -i "$cover" -i "$audio" -c:a aac -b:a 348k -shortest "$audio.mp4"
+ffmpeg -y -loop 1 -i "$cover" -i "$audio.wav" -c:a aac -b:a 348k -shortest "$audio.mp4"
