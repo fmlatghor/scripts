@@ -1,3 +1,4 @@
+#!/bin/dash
 echo Cover art:
 read cover
 echo Audio:

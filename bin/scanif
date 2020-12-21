@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/dash
 i=0
 while true; do
 	read -p "Ready to scan. Scan your item(s)? y/N " yn

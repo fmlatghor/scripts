@@ -1,3 +1,4 @@
+#!/bin/dash
 echo Playlist URL:
 read url
 youtube-dl "$url" --yes-playlist --audio-format flac -x --audio-quality 0 --add-metadata -o "%(title)s.%(ext)s"

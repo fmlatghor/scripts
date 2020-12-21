@@ -1,3 +1,4 @@
+#!/bin/dash
 sudo dnf upgrade -y
 sudo pacman -Syu
 pip-upgrade
