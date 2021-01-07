@@ -4,6 +4,7 @@ Scripts I made out of necessity.
 ## Scripts info
 | Script      | Info                                                |
 |-------------|-----------------------------------------------------|
+| pa-rescan   | Rescan audio devices (pulseaudio).                  |
 | pip-upgrade | Upgrade all pip packages.                           |
 | scanif      | Scan several documents one-by-one with SANE/CUPS.   |
 | ugrade      | Upgrade packages for every package manager.         |
