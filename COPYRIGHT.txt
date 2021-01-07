@@ -2,8 +2,16 @@ pip-upgrade is licensed under CC BY-SA 2.5. A license copy is provided in LICENS
 pip-upgrade - Copyright (c) 2010 rbp
 pip-upgrade - Copyright (c) 2018 Bernard Barker
 
-mkv-cat is licensed under CC BY-SA 3.0. A license copy is provided in LICENSES/CC-BY-SA-3.0.txt
+mkv-cat is licensed under CC BY-SA 3.0. A license copy is provided in LICENSES/CC-BY-SA-3.0.txt.
 mkv-cat - Copyright (c) Contributors to the FFmpeg Community Documentation Wiki
 
-pa-rescan is licensed under CC BY-SA 3.0. A license copy is provided in LICENSES/CC-BY-SA-3.0.txt
+pa-rescan is licensed under CC BY-SA 3.0. A license copy is provided in LICENSES/CC-BY-SA-3.0.txt.
 pa-rescan - Copyright (c) 2015 Signez
+
+scanif is licensed under the Unlicense. A license copy is provided in LICENSES/Unlicense.txt.
+
+ugrade is licensed under the Unlicense. A license copy is provided in LICENSES/Unlicense.txt.
+
+yt-dl is licensed under the Unlicense. A license copy is provided in LICENSES/Unlicense.txt.
+
+yt-mpeg is licensed under the Unlicense. A license copy is provided in LICENSES/Unlicense.txt.
