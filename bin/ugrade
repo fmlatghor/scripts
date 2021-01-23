@@ -3,4 +3,4 @@ sudo dnf upgrade -y
 sudo pacman -Syu
 pip-upgrade
 sudo npm -g upgrade
-yarn global upgrade
+sudo yarn global upgrade
