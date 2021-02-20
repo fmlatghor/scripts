@@ -1,0 +1,48 @@
+#! /usr/bin/perl -w
+use strict;
+use List::Util qw[max];
+
+# read a  GIMP gpl palette file and write out a netpbm PPM image
+#
+# rename this file to end in .pl (not .txt) and chmod +x thisfile
+#
+# Liam Quin, https://www.delightfulcomputing.com/ 2021
+
+my $inheader = 1;
+my @colours;
+my $max = 0;
+while (<>) {
+    chomp;
+    if ($inheader) {
+	if (m/^GIMP Palette/) {
+	    next;
+	}
+	if (m/^NameL/) {
+	    next;
+	}
+	if (m/^#/) {
+	    $inheader = 0;
+	    next;
+	}
+    } elsif (m/^\s*(\d+)\s+(\d+)\s+(\d+).*$/) {
+	push @colours, [ $1, $2, $3 ];
+	$max = max($max, $1, $2, $3);
+    }
+}
+
+if (!@colours) {
+    die "$0: no colours found";
+}
+
+if ($max <= 0) {
+    die "$0: max value found is 0 which I think is an all-black palette";
+}
+
+# our image will be 1 pixel wide...
+print "P3\n1 " . scalar(@colours) . "\n";
+print "${max}\n";
+
+# now the image data
+foreach (@colours) {
+    print $_->[0], " ", $_->[1], " ", $_->[2], "\n";
+}
