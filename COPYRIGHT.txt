@@ -29,3 +29,7 @@ matrix-decrypt is licensed under ISC. A license copy is provided in LICENSES/ISC
 Copyright (c) 2018 Damir Jelić <poljar@termina.org.uk>
 
 gplopnm - Copyright (c) 2021 Liam Quin (https://www.delightfulcomputing.com/). All Rights Reserved.
+
+unpack is licensed under the Unlicense. A license copy is provided in LICENSES/Unlicense.txt.
+
+repack is licensed under the Unlicense. A license copy is provided in LICENSES/Unlicense.txt.
