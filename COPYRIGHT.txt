@@ -33,3 +33,5 @@ gplopnm - Copyright (c) 2021 Liam Quin (https://www.delightfulcomputing.com/). A
 unpack is licensed under the Unlicense. A license copy is provided in LICENSES/Unlicense.txt.
 
 repack is licensed under the Unlicense. A license copy is provided in LICENSES/Unlicense.txt.
+
+Copyright (c) 2010 magical - nlzss. A license copy is provided in LICENSES/MIT.txt
