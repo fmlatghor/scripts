@@ -34,4 +34,4 @@ unpack is licensed under the Unlicense. A license copy is provided in LICENSES/U
 
 repack is licensed under the Unlicense. A license copy is provided in LICENSES/Unlicense.txt.
 
-Copyright (c) 2010 magical - nlzss. A license copy is provided in LICENSES/MIT.txt
+Copyright (c) 2010 magical - nlzss, nlzss-c. A license copy is provided in LICENSES/MIT.txt.
