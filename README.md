@@ -19,3 +19,4 @@ A collection of useful scripts.
 | unpack	 | Completely unpack an NDS rom with `ndstool`.           |
 | yt-dl          | youtube-dl "magic" download.                           |
 | yt-mpeg        | Turn wav/cover image into a video optimised for yt.    |
+| makeself       | Make self-extractable archives for *nix-likes.         |
